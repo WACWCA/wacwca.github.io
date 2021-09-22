@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar"class="navbar navbar-expand-sm navbar-dark bg-dark shadow-sm-sm" style= "">
+      <div class="container-fluid">
+        <div class="order-0">
+            <a class="navbar-brand mx-auto" data-method="get" href="/">Will Callan</a>
+        </div>
+        <div class="navbar-collapse collapse order-1 w-100 order-sm-0 dual-collapse2"style="">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" data-method="get" href="/index">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active"data-method="get" href="/projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-method="get" href="/resume">Resume</a>
+            </li>
+          </ul>
+        </div>
+        <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <div class="mx-4 my-4 d-flex flex-row flex-wrap justify-content-center">
+      <div class="card mb-3 shadow-sm me-3">
+        <img src="./images/sked8.png" class="card-img-top" style="background-color: #868e96;" alt="..." style="object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title"><a href="https://skedx.herokuapp.com/" class="text-black text-decoration-none">UMD Scheduling Site <i class="bi bi-link-45deg"></i></a></h5>
+          <p class="card-text">Users can search for classes and plan out their schedule with ease on desktop and mobile, as well as add friends and compare schedules.</p>
+          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+        </div>
+        <div class="card-footer text-center">
+          <small class="text-muted">Ruby on Rails &bull; JS &bull; HTML &bull; CSS</small>
+        </div>
+      </div>
+      <div class="card mb-3 shadow-sm me-3" style="max-width: 300px">
+        <img src="./images/pacman3.PNG" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><a href="https://shaunlebron.github.io/pacman-mazegen/" class="text-decoration-none text-black">Pacman + Maze Generation <i class="bi bi-link-45deg"></i></a></h5>
+          <p class="card-text">Standard pacman game featuring random mazes. Mazes are constructed using an algorithm tailored feel like traditional boards</p>
+          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+        </div>
+        <div class="card-footer text-center">
+          <small class="text-muted">Java</small>
+        </div>
+      </div>
+      <div class="card mb-3 shadow-sm me-3" style="max-width: 300px">
+        <img src="./images/algsorter1.PNG" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><a href="https://github.com/WACWCA/AlgRanker" class="text-decoration-none text-black">Cubing Algorithm Ranker <i class="bi bi-link-45deg"></i></a></h5>
+          <p class="card-text">Compares candidate algorithms for the 2x2 Rubik's Cube by expected speed. Works well with output from KSolve++ software</p>
+          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+        </div>
+        <div class="card-footer text-center">
+          <small class="text-muted">Java</small>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
