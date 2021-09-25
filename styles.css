@@ -17,6 +17,13 @@ a.active {
   max-height: 300px;
 }
 
+.screenshot-container {
+    margin-top: 50px;
+}
+
+.screenshot-description {
+  width: 800px;
+}
 h3 {
   /* color: gray; */
 }
