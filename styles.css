@@ -5,6 +5,22 @@ a.active {
   max-width: 500px;
 }
 
+.feature {
+  width: 300px;
+  min-width: 300px;
+  max-width: 300px;
+  margin-bottom: 5px;
+}
+
+.featureimage {
+  max-width: 100%;
+  max-height: 300px;
+}
+
+h3 {
+  /* color: gray; */
+}
+
 @media screen and (max-width: 1000px) {
   .card {
     max-width: 300px;
