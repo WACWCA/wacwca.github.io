@@ -22,14 +22,43 @@ a.active {
 }
 
 .screenshot-description {
-  width: 800px;
+  max-width: 800px;
 }
 h3 {
   /* color: gray; */
 }
 
+.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+
+.video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
 @media screen and (max-width: 1000px) {
   .card {
     max-width: 300px;
   }
+}
+
+.btn-nallac {
+  border-color: rgb(170, 102, 204) !important;
+  color: rgb(170, 102, 204) !important;
+}
+
+.btn-nallac:hover, .btn-nallac:hover {
+  background-color: rgb(170, 102, 204) !important;
+  color: white !important;
+}
+
+.btn-outline-light {
+  border-color: #97F178 !important;
+}
+.btn-outline-light:not(:hover) {
+  color: #97F178 !important;
+}
+
+.btn-outline-light:hover {
+    background-color: #97F178 !important;
+}
+
+.color-nallac-green {
+  color: #97F178;
 }
