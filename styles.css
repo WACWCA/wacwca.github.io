@@ -56,6 +56,10 @@ h3 {
 }
 
 .btn-outline-light:hover {
+  color: white !important;
+}
+
+.btn-outline-light:hover {
     background-color: #97F178 !important;
 }
 
