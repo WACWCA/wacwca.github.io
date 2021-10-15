@@ -63,9 +63,20 @@ h3 {
     background-color: #97F178 !important;
 }
 
-.btn-outline-light.active.focus {
+.btn-outline-light:focus {
   box-shadow: 0 0 0 .25rem rgba(151, 241, 120,.5) !important;
 }
+.btn-outline-light:active {
+  box-shadow: 0 0 0 .25rem rgba(151, 241, 120,.5) !important;
+}
+
+.btn-nallac:focus {
+  box-shadow: 0 0 0 .25rem rgba(170, 102, 204,.5) !important;
+}
+.btn-nallac:active {
+  box-shadow: 0 0 0 .25rem rgba(170, 102, 204,.5) !important;
+}
+
 .color-nallac-green {
   color: #97F178;
 }
