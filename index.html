@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr" class="" style="height: 100vh; background-color: rgba(100, 102, 104, 0.6);">
+<html lang="en" dir="ltr" class="" style="min-height: 100%;">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,12 +9,11 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body class="" style="overflow: none; height: 100%; background-repeat: no-repeat; background-size: 100% 100%;
-  background-image: linear-gradient(to bottom, rgba(100, 102, 133, 0.2), rgba(100, 102, 104, 0.6))">
+  <body class="" style="overflow: none; height: 100%; background-repeat: no-repeat; background-size: 100% 100%;">
     <nav id="navbar"class="navbar navbar-expand-sm navbar-dark bg-dark shadow-sm" style= "">
       <div class="container-fluid">
         <div class="order-0">
-            <a class="navbar-brand mx-auto" data-method="get" href="/">Will Callan</a>
+            <a class="navbar-brand mx-auto" data-method="get" href="/"></a>
         </div>
         <div class="navbar-collapse collapse order-1 w-100 order-sm-0 dual-collapse2"style="">
           <ul class="navbar-nav ms-auto">
@@ -24,6 +23,9 @@
             <li class="nav-item">
               <a class="nav-link" href="./projects.html">Projects <i class="bi bi-code"></i></a>
             </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="./cubing.html">Cubing <i class="bi bi-grid-fill fs-6"></i></a>
+            </li> -->
           </ul>
         </div>
         <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target=".dual-collapse2">
@@ -31,28 +33,44 @@
         </button>
       </div>
     </nav>
-    <div class="d-flex justify-content-center">
-      <div class="p-5 d-flex flex-column align-items-center mx-5 mt-3 rounded-3" style="width: 700px; max-width: 700px;">
-        <h2>William Callan</h2>
-        <span style="font-size: 14px"class="fw-light fst-italic">Eldersburg, MD <i class="bi bi-geo-alt"></i></span>
-        <!-- <img src="images/profile.jpg" alt="" style="max-width: 300px; border-radius: 50%; "> -->
-        <hr class="bg-dark"style="width:100%;">
-        <div class="d-flex flex-column align-items-center">
-          <span class="fw-light">UMD class of 2023 <i class="fa fa-graduation-cap"></i></span>
-          <span class="fw-light">B.S. in Computer Science <i class="bi bi-laptop"></i></span>
-          <span class="fw-light">Machine Learning Concentration <i class="fa fa-code-fork"></i></span>
-          <span class="fw-light">Statistics Minor <i class="bi bi-percent"></i></span>
-          <span class="fw-light">Rubik's Cube U.S. Champion <i class="bi bi-trophy"></i></span>
-          <span class="fw-light">WCA Trainee Delegate</span>
+    <div id="home-main-container" class="d-flex justify-content-center pt-5">
+      <img id="self-photo" src="images/photo.png" class="" alt="" style="">
+      <div id="home-body-container" class="d-flex flex-column px-4">
+        <h2>Will Callan</h2>
+        <div id="about-panels-container" class="d-flex">
+          <div class="about-panel">
+            <div class="about-header d-flex flex-column">
+              <span class="">Software Engineer</span>
+              <span class="subtext fw-light fst-italic text-small">J.P. Morgan Chase</span>
+            </div>
+            <div class="about-panel-list">
+              <div class="bullet-row d-flex flex-row align-items-start"><i class="bi bi-app text-primary"></i> UMD class of 2023</div>
+              <div class="bullet-row d-flex flex-row align-items-start"><i class="bi bi-app text-primary"></i> B.S. in Computer Science</div>
+              <div class="bullet-row d-flex flex-row align-items-start"><i class="bi bi-app text-primary"></i> Full Stack Development</div>
+            </div>
+          </div>
+          <div class="about-panel">
+            <div class="about-header d-flex flex-column">
+              <span>Speedcuber <i class="bi bi-grid-3x3 text-primary"></i></span>
+              <span class="subtext fw-light fst-italic text-small">World Cube Association</span>
+            </div>
+            <!-- <hr class="about-separator"> -->
+            <div class="about-panel-list">
+              <div class="bullet-row d-flex flex-row align-items-start"><i class="bi bi-app text-primary"></i> 2 x North American Record</div>
+              <div class="bullet-row d-flex flex-row align-items-start"><i class="bi bi-app text-primary"></i> 1 x U.S. National Champion</div>
+              <div class="bullet-row d-flex flex-row align-items-start"><i class="bi bi-app text-primary"></i> World Cube Association Delegate and Organizer</div>
+              <!-- <div class="bullet-row d-flex flex-row align-items-start"><i class="bi bi-app text-primary"></i> LS method designer</div> -->
+            </div>
+          </div>
         </div>
-        <div class="shadow rounded mt-4 p-1 d-flex flex-row justify-content-between" style="background-image: linear-gradient(to left, rgb(33, 37, 41), rgb(70, 75, 80))">
+        <div id="action-button-container" class="shadow rounded p-1 d-flex flex-column flex-md-row justify-content-between" style="background-image: linear-gradient(to left, rgb(33, 37, 41), rgb(70, 75, 80))">
           <a class="btn btn-outline-light me-1" href="./projects.html">Projects <i class="bi bi-code"></i></a>
           <a href="https://www.linkedin.com/in/william-callan/" class="btn btn-outline-info me-1">LinkedIn <i class="bi bi-linkedin"></i></a>
           <a href="https://github.com/WACWCA/" class="btn btn-nallac me-1">Github <i class="bi bi-github"></i></a>
           <a href="https://www.worldcubeassociation.org/persons/2012CALL01" class="btn btn-outline-primary me-1">WCA <i class="bi bi-box"></i></a>
           <a href="https://www.youtube.com/channel/UCnZ34Cy4BQ0Em1cp973wwhQ/" class="btn btn-outline-danger">YouTube <i class="bi bi-youtube"></i></a>
-
         </div>
+      </div>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

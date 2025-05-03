@@ -80,3 +80,94 @@ h3 {
 .color-nallac-green {
   color: #97F178;
 }
+
+#action-button-container a {
+  min-width: 111px;
+}
+
+#action-button-container {
+  gap: 5px;
+  margin-top: auto;
+  flex-wrap: wrap;
+}
+
+#self-photo {
+  width: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.about-panel {
+  display: flex;
+  flex-direction: column;
+  min-width: 50%
+}
+
+.about-panel-list {
+  padding-left: 7px;
+}
+
+
+.subtext {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.bi-app {
+  font-size: 10px;
+  margin-right: 8px;
+  line-height: 24px;
+}
+
+.bullet-row {
+  margin-bottom: 5px;
+}
+
+
+
+@media only screen and (max-width: 975px) {
+  #home-main-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #home-body-container {
+    align-items: center;
+    padding-bottom: 5px;
+  }
+
+  #about-panels-container {
+    flex-direction: column;
+  }
+
+  .about-panel {
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .bullet-row {
+    justify-content: center;
+    margin-bottom: unset;
+  }
+
+  .about-separator {
+    width: 150px;
+  }
+
+  .about-header {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 3px;
+    align-items: center;
+    margin-bottom: 3px;
+  }
+
+  .bi-app {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #actions-button-container {
+    flex-direction: column;
+  }
+}
